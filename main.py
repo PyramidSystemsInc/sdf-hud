@@ -1,6 +1,6 @@
 
 import os
-from generator import generate_form
+from generator.generator import generate_form
 import dearpygui.dearpygui as dpg
 
 # Global variables, TODO better way to handle this?
@@ -83,7 +83,6 @@ def main_window_setup():
         )
 
         dpg.add_spacer(height=5)
-        dpg.add_button(label="Directory Selector", width=-1, height=30, callback=lambda: dpg.show_item("file_dialog"))
         dpg.add_button(label="Generate", width=-1, height=30, callback=callback_generate)
 
     dpg.setup_dearpygui()

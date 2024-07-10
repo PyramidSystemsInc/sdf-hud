@@ -1,0 +1,250 @@
+{
+  "form50058": [
+    {
+      "header": {
+        "submissionType": "50058",
+        "identificationCode": "19871",
+        "vendorSoftwareId": "Yardi",
+        "vendorSoftwareVersion": "test",
+        "formVersionDate": "2020",
+        "vendorDefinedData": "Tenant t0001807"
+      },
+      "agency": {
+        "phaName": "Yardi Housing Authority",
+        "phaCode": "blahblah",
+        "program": "VO",
+        "voucherType": "T"
+      },
+      "action": {
+        "actionType": "1",
+        "effectiveDate": "07012023",
+        "isCorrection": "N",
+        "admissionDate": "07012023",
+        "reexaminationDate": "02012024",
+        "isFssParticipant": "N",
+        "specialProgram": "",
+        "specialOther1": "",
+        "specialOther2": ""
+      },
+      "household": {
+        "members": [
+          {
+            "memberNumber": "01",
+            "lastName": "Jackson",
+            "firstName": "Theresa",
+            "middle": "",
+            "dob": "8161918",
+            "age": 106,
+            "sex": "F",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "920344923",
+            "alienNumber": ""
+          }
+        ],
+        "totalHousehold": "1",
+        "subsidyStatus": "E"
+      },
+      "background": {
+        "waitingListEntryDate": "01202018",
+        "zipBeforeAdmission": "11120",
+        "isHomelessAtAdmission": "Y",
+        "isVeryLowIncomeLimit": "N",
+        "isContinuallyAssisted": "N"
+      },
+      "unitOccupied": {
+        "address": {
+          "street": "11012 Eagles Cove Drive",
+          "apartment": "",
+          "city": "Louisville",
+          "state": "KY",
+          "zip": "40241"
+        }
+      },
+      "totalTenantPayment": { "adjustedMonthlyIncomePercent": "3000" }
+    },
+    {
+      "header": {
+        "submissionType": "50058",
+        "identificationCode": "19871",
+        "vendorSoftwareId": "Yardi",
+        "vendorSoftwareVersion": "test",
+        "formVersionDate": "2020",
+        "vendorDefinedData": "Tenant t0001807"
+      },
+      "agency": {
+        "phaName": "Yardi Housing Authority",
+        "phaCode": "blahblah",
+        "program": "VO",
+        "voucherType": "T"
+      },
+      "action": {
+        "actionType": "1",
+        "effectiveDate": "07012023",
+        "isCorrection": "N",
+        "admissionDate": "07012023",
+        "reexaminationDate": "02012024",
+        "isFssParticipant": "N",
+        "specialProgram": "",
+        "specialOther1": "",
+        "specialOther2": ""
+      },
+      "household": {
+        "members": [
+          {
+            "memberNumber": "01",
+            "lastName": "Hamilton",
+            "firstName": "Justin",
+            "middle": "",
+            "dob": "5271910",
+            "age": 114,
+            "sex": "M",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "979558667",
+            "alienNumber": ""
+          }
+        ],
+        "totalHousehold": "1",
+        "subsidyStatus": "E"
+      },
+      "background": {
+        "waitingListEntryDate": "01202018",
+        "zipBeforeAdmission": "11120",
+        "isHomelessAtAdmission": "Y",
+        "isVeryLowIncomeLimit": "N",
+        "isContinuallyAssisted": "N"
+      },
+      "unitOccupied": {
+        "address": {
+          "street": "4 Village Lake Drive",
+          "apartment": "#4",
+          "city": "Fayetteville",
+          "state": "AR",
+          "zip": "72703"
+        }
+      },
+      "totalTenantPayment": { "adjustedMonthlyIncomePercent": "3000" }
+    },
+    {
+      "header": {
+        "submissionType": "50058",
+        "identificationCode": "19871",
+        "vendorSoftwareId": "Yardi",
+        "vendorSoftwareVersion": "test",
+        "formVersionDate": "2020",
+        "vendorDefinedData": "Tenant t0001807"
+      },
+      "agency": {
+        "phaName": "Yardi Housing Authority",
+        "phaCode": "blahblah",
+        "program": "VO",
+        "voucherType": "T"
+      },
+      "action": {
+        "actionType": "1",
+        "effectiveDate": "07012023",
+        "isCorrection": "N",
+        "admissionDate": "07012023",
+        "reexaminationDate": "02012024",
+        "isFssParticipant": "N",
+        "specialProgram": "",
+        "specialOther1": "",
+        "specialOther2": ""
+      },
+      "household": {
+        "members": [
+          {
+            "memberNumber": "01",
+            "lastName": "Fisher",
+            "firstName": "Matthew",
+            "middle": "",
+            "dob": "3181966",
+            "age": 58,
+            "sex": "M",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "974109016",
+            "alienNumber": ""
+          },
+          {
+            "memberNumber": "02",
+            "lastName": "Vaughn",
+            "firstName": "Catherine",
+            "middle": "",
+            "dob": "10301943",
+            "age": 81,
+            "sex": "F",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "981674067",
+            "alienNumber": ""
+          },
+          {
+            "memberNumber": "03",
+            "lastName": "Scott",
+            "firstName": "Becky",
+            "middle": "",
+            "dob": "9231979",
+            "age": 45,
+            "sex": "F",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "932447322",
+            "alienNumber": ""
+          },
+          {
+            "memberNumber": "04",
+            "lastName": "Lawson",
+            "firstName": "Lawrence",
+            "middle": "",
+            "dob": "1151960",
+            "age": 64,
+            "sex": "M",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "976841968",
+            "alienNumber": ""
+          }
+        ],
+        "totalHousehold": "1",
+        "subsidyStatus": "E"
+      },
+      "background": {
+        "waitingListEntryDate": "01202018",
+        "zipBeforeAdmission": "11120",
+        "isHomelessAtAdmission": "Y",
+        "isVeryLowIncomeLimit": "N",
+        "isContinuallyAssisted": "N"
+      },
+      "unitOccupied": {
+        "address": {
+          "street": "2245 Southwest Binkley Street",
+          "apartment": "",
+          "city": "Oklahoma City",
+          "state": "OK",
+          "zip": "73119"
+        }
+      },
+      "totalTenantPayment": { "adjustedMonthlyIncomePercent": "3000" }
+    }
+  ]
+}
