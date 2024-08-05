@@ -65,21 +65,21 @@ def main_window_setup():
             width=150,
             tag="input_n_entries",
             label="Number of entries to generate",
-            default_value="500",
+            default_value="2",
         )
 
         dpg.add_input_text(
             width=150,
             tag="input_n_members",
             label="Number of max member in a household",
-            default_value="3",
+            default_value="1",
         )
 
         dpg.add_input_text(
             width=150,
             tag="input_phacode",
             label="PhaCode",
-            default_value="",
+            default_value="DC123",
         )
 
         dpg.add_spacer(height=5)

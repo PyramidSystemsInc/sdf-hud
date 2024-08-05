@@ -25,14 +25,14 @@ def generate_members(n_members : int) -> dict:
         else:
             firstname, lastname = fake.first_name_female(), fake.last_name()
             
-        dob = fake.date_of_birth()
+        dob = fake.date_of_birth(minimum_age=18)
 
         member = {
             "memberNumber": f"{i:02}",
             "lastName": lastname,
             "firstName": firstname,
             "middle": "",
-            "dob": f"{dob.month}{dob.day}{dob.year}",
+            "dob": f"{dob.month:02}{dob.day:02}{dob.year}",
             "age": datetime.now().year - dob.year,
             "sex": sex,
             "relationCode": "H",
