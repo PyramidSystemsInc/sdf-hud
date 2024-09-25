@@ -3,6 +3,7 @@ import random
 import numpy as np
 from faker import Faker
 from datetime import datetime
+from dateutil.relativedelta import relativedelta
 from generator.data import real_addresses, form50058
 
 def generate_one_fake_ssn() -> str:
@@ -12,9 +13,16 @@ def generate_one_fake_ssn() -> str:
     fake_ssn = f"{area_number}{group_number}{serial_number}"
     return fake_ssn
 
-def generate_members(n_members : int) -> dict:
+def generate_members(js: dict, n_members : int) -> dict:
+
+    # hard coded macros for generation
+    MAX_AGE = 93
+
     fake = Faker('en_US')
     
+    # record the effective date from the JSON object, DOB is based on this
+    effective_date = datetime.strptime(js["action"]["effectiveDate"], '%m%d%Y')
+
     members = []
 
     for i in range(1, n_members + 1):
@@ -25,7 +33,7 @@ def generate_members(n_members : int) -> dict:
         else:
             firstname, lastname = fake.first_name_female(), fake.last_name()
             
-        dob = fake.date_of_birth(minimum_age=18)
+        dob = fake.date_between(effective_date - relativedelta(years=MAX_AGE), effective_date - relativedelta(years=18))
 
         member = {
             "memberNumber": f"{i:02}",
@@ -33,7 +41,7 @@ def generate_members(n_members : int) -> dict:
             "firstName": firstname,
             "middle": "",
             "dob": f"{dob.month:02}{dob.day:02}{dob.year}",
-            "age": datetime.now().year - dob.year,
+            "age": effective_date.year - dob.year,
             "sex": sex,
             "relationCode": "H",
             "citizenshipCode": "EC",
@@ -74,7 +82,7 @@ def generate_form(n_entries: int, max_member: int, phaCode: str) -> str:
         js = json.loads(form50058)
         n_members = random.randint(1, max_member + 1)
         js['agency']['phaCode'] = phaCode
-        js['household']['members'] = generate_members(n_members)
+        js['household']['members'] = generate_members(js, n_members)
         js['unitOccupied']['address'] = generate_address()
         forms.append(js)
 

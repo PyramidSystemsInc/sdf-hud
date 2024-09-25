@@ -67,7 +67,8 @@ form50058 = """
         }
     },
     "totalTenantPayment": {
-            "adjustedMonthlyIncomePercent": "3000"
+      "adjustedMonthlyIncomePercent": "3000",
+      "welfareRentPerMonth":"0"
     }
 }
 """

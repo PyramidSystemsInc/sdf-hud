@@ -30,34 +30,18 @@
         "members": [
           {
             "memberNumber": "01",
-            "lastName": "Espinoza",
-            "firstName": "Lauren",
+            "lastName": "Jenkins",
+            "firstName": "Grace",
             "middle": "",
-            "dob": "08251968",
-            "age": 56,
+            "dob": "05021932",
+            "age": 91,
             "sex": "F",
             "relationCode": "H",
             "citizenshipCode": "EC",
             "isDisabled": "Y",
             "raceCode": ["1"],
             "ethnicityCode": "2",
-            "ssn": "954815666",
-            "alienNumber": ""
-          },
-          {
-            "memberNumber": "02",
-            "lastName": "Garcia",
-            "firstName": "Brandon",
-            "middle": "",
-            "dob": "07221977",
-            "age": 47,
-            "sex": "M",
-            "relationCode": "H",
-            "citizenshipCode": "EC",
-            "isDisabled": "Y",
-            "raceCode": ["1"],
-            "ethnicityCode": "2",
-            "ssn": "946151663",
+            "ssn": "954100534",
             "alienNumber": ""
           }
         ],
@@ -73,14 +57,17 @@
       },
       "unitOccupied": {
         "address": {
-          "street": "3388 Thomasson Lane",
+          "street": "718 Newhall Drive",
           "apartment": "",
-          "city": "Fairfield",
-          "state": "CA",
-          "zip": "94534"
+          "city": "Nashville",
+          "state": "TN",
+          "zip": "37206"
         }
       },
-      "totalTenantPayment": { "adjustedMonthlyIncomePercent": "3000" }
+      "totalTenantPayment": {
+        "adjustedMonthlyIncomePercent": "3000",
+        "welfareRentPerMonth": "0"
+      }
     },
     {
       "header": {
@@ -112,18 +99,34 @@
         "members": [
           {
             "memberNumber": "01",
-            "lastName": "Holmes",
-            "firstName": "Tristan",
+            "lastName": "Leonard",
+            "firstName": "Carrie",
             "middle": "",
-            "dob": "12281957",
-            "age": 67,
-            "sex": "M",
+            "dob": "12311990",
+            "age": 33,
+            "sex": "F",
             "relationCode": "H",
             "citizenshipCode": "EC",
             "isDisabled": "Y",
             "raceCode": ["1"],
             "ethnicityCode": "2",
-            "ssn": "991427045",
+            "ssn": "957227449",
+            "alienNumber": ""
+          },
+          {
+            "memberNumber": "02",
+            "lastName": "Hart",
+            "firstName": "Theresa",
+            "middle": "",
+            "dob": "02081981",
+            "age": 42,
+            "sex": "F",
+            "relationCode": "H",
+            "citizenshipCode": "EC",
+            "isDisabled": "Y",
+            "raceCode": ["1"],
+            "ethnicityCode": "2",
+            "ssn": "997067156",
             "alienNumber": ""
           }
         ],
@@ -139,14 +142,17 @@
       },
       "unitOccupied": {
         "address": {
-          "street": "3041 West Marigold Drive",
-          "apartment": "",
-          "city": "Fayetteville",
-          "state": "AR",
-          "zip": "72704"
+          "street": "6385 Oak Street",
+          "apartment": "#101",
+          "city": "Arvada",
+          "state": "CO",
+          "zip": "80004"
         }
       },
-      "totalTenantPayment": { "adjustedMonthlyIncomePercent": "3000" }
+      "totalTenantPayment": {
+        "adjustedMonthlyIncomePercent": "3000",
+        "welfareRentPerMonth": "0"
+      }
     }
   ]
 }
