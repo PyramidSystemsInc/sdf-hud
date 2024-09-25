@@ -1,0 +1,11 @@
+altgraph==0.17.4
+dearpygui==1.11.1
+Faker==26.0.0
+numpy==2.0.0
+packaging==24.1
+pyinstaller==6.9.0
+pyinstaller-hooks-contrib==2024.7
+python-dateutil==2.9.0.post0
+random-address==1.1.1
+setuptools==70.3.0
+six==1.16.0
